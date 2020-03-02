@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "豆瓣抓阄",
+	"version": "1.1",
+	"description": "基于豆瓣广播实现转发抽奖",
+	"author": "doggie",
+	"icons":
+	{
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action": 
+	{
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions":
+	[
+		"notifications", 
+		"storage", 
+		"webRequest",
+		"http://*/*", 
+		"https://*/*" 
+	]
+}
